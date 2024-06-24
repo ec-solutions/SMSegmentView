@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     }
     
     // SMSegment selector for .ValueChanged
-    func selectSegmentInSegmentView(segmentView: SMSegmentView) {
+    @objc func selectSegmentInSegmentView(segmentView: SMSegmentView) {
         /*
         Replace the following line to implement what you want the app to do after the segment gets tapped.
         */
